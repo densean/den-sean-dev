@@ -6,9 +6,9 @@
   "homepage": "https://densean.github.io/den-sean-dev",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "build": "tsc -b && vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
