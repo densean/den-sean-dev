@@ -9,8 +9,8 @@ function App() {
 
 	useEffect(() => {
 		const lenis = new Lenis({
-			duration: 0.6,
-			easing: (t) => 1 - Math.pow(1 - t, 6),
+			duration: 0.4,
+			easing: (t) => 1 - Math.pow(1 - t, 2),
 			smoothWheel: true,
 			touchMultiplier: 0.6,
 		});
