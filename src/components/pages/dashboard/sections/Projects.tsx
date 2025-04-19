@@ -33,8 +33,9 @@ export default function ProjectsSection({ projects }: ProjectsProps) {
 
 						<img
 							src={
-								`${import.meta.env.BASE_URL}${project.imgPath}` ||
-								`${import.meta.env.BASE_URL}img/projects/fallback.png`
+								project.imgPath
+									? `${import.meta.env.BASE_URL}${project.imgPath}`
+									: `${import.meta.env.BASE_URL}/img/projects/fallback.png`
 							}
 							alt={project.description}
 							className="block w-full h-full scale-125 object-cover transition-transform duration-500 group-hover:scale-150"
