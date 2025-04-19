@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function Footer() {
 	const handleEmailClick = () => {
 		window.location.href =
-			"mailto:test@gmail.com?subject=Connect with a Developer";
+			"mailto:deadmeetshero@gmail.com?subject=Connect with a Developer";
 	};
 
 	return (
@@ -15,7 +15,7 @@ export default function Footer() {
 
 					<div className="flex gap-4">
 						<a
-							href="https://www.linkedin.com"
+							href="https://ph.linkedin.com/in/denis-sean-siclot-049852246"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="hover:text-gray-400"
@@ -23,7 +23,7 @@ export default function Footer() {
 							<FaLinkedin size={24} />
 						</a>
 						<a
-							href="https://www.facebook.com"
+							href="https://www.facebook.com/Devulgie"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="hover:text-gray-400"
@@ -31,7 +31,7 @@ export default function Footer() {
 							<FaFacebook size={24} />
 						</a>
 						<a
-							href="https://www.instagram.com"
+							href="https://www.instagram.com/den.sean"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="hover:text-gray-400"
@@ -63,7 +63,7 @@ export default function Footer() {
 			<div className=" text-sm mx-auto bg-black w-full m-0 p-2 text-center text-white">
 				&copy; 2025{" DS/ | "}
 				<a
-					href="https://github.com/your-portfolio-repo"
+					href="https://github.com/densean/den-sean-dev"
 					className="text-gray-200 hover:text-gray-400"
 				>
 					Portfolio Source Code
