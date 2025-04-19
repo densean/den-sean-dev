@@ -12,6 +12,9 @@ export default defineConfig({
 			"@": path.resolve(__dirname, "./src"),
 		},
 	},
+	build: {
+		outDir: "build",
+	},
 	// server: {
 	// 	host: true,
 	// 	port: 3000,
