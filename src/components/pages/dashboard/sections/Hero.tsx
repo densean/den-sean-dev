@@ -16,7 +16,10 @@ export default function HeroSection({
 				playsInline
 				className="absolute top-0 left-0 w-full h-full object-cover z-0"
 			>
-				<source src={imgPath} type="video/mp4" />
+				<source
+					src={`${import.meta.env.BASE_URL}${imgPath}`}
+					type="video/mp4"
+				/>
 				Your browser does not support the video tag.
 			</video>
 
